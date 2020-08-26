@@ -1,0 +1,72 @@
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(180, 179, 179);
+}
+
+.main-header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(202, 144, 144); */
+    line-height: 0.5rem;
+}
+
+.main-header a {
+    text-decoration-line: none;
+    font-weight: bold;
+    color: black;
+}
+
+.main-header a:hover {
+    color: deeppink;
+}
+
+.header {
+    /* background-color: rgb(211, 226, 72); */
+    margin: 2rem;
+}
+
+.mainpic {
+    margin: 3rem 0;
+    /* background-color: rgb(52, 199, 88); */
+    text-align: center;
+}
+
+.mainpic img {
+    border: 5px black solid;
+    }
+
+
+.textContent p {
+    text-align: center;
+}
+
+.textContent #comment{
+    background-color: rgb(209, 208, 208);
+}
+
+textarea {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    
+}
+
+.shareSNS {
+    margin: 0 auto;
+    margin-top: 3rem;
+    max-width: 400px;
+    text-align: center;
+    /* background-color: rgb(114, 112, 112); */
+}
+
+.snsSwitch {
+    display: flex;
+    justify-content: space-around ;
+    /* background-color: rgb(148, 115, 115); */
+}
+
+.switchContent {
+    margin-bottom: 2rem;
+}
