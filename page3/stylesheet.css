@@ -1,0 +1,65 @@
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(180, 179, 179);
+}
+
+
+header {
+    /* background-color: rgb(211, 226, 72); */
+    margin: 2rem;
+    text-align: center;
+    font-size: 18px;
+}
+
+header input {
+    width: 15rem;
+    height: 2rem;
+}
+
+header a {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.choose {
+    text-align: center;
+}
+
+.choose p {
+    color: white;
+}
+
+.photobox {
+    /* background-color: rgb(101, 240, 210); */
+    justify-content: center;
+    align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.photobox img:hover {
+    opacity: 0.5;
+}
+
+.chooseType {
+    background-color: rgb(248, 225, 225);
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 3.5rem;
+    padding: 10px;
+}
+
+.chooseType a {
+    /* display: block; */
+    /* background-color: rgb(238, 153, 153); */
+    margin: 0 2rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5vh;
+}
